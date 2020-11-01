@@ -1,0 +1,65 @@
+#backgroundImage:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('../img/fondo.png');
+	background-repeat: round;
+	background-size: 17%;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(-5deg);
+	filter:alpha(opacity=1);
+	opacity: 0.5;
+	height:100% !important;
+	width:100% !important;
+}
+
+.fullscreen-bg {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+}
+
+nav, div.carousel{
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+}
+
+p{
+	font-family: "Times New Roman";
+	font-size: 18px;
+	text-align: justify;
+}
+
+div.card{
+	margin-top: 10px !important;
+}
+
+nav.fixed-top{
+	margin-bottom: 25px !important;
+}
+
+div.card_movil:hover{
+	border: 4px green solid !important;
+	border-radius: .5em !important;
+}
+
+.badge_notificacion{
+	position: relative !important;
+	top: -10px !important;
+	border-radius: 100%;
+}
+
+.cursor_pointer:hover{
+	cursor: pointer !important;
+}
